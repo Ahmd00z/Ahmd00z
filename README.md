@@ -1,16 +1,14 @@
-## Hi there 👋
 
-<!--
-**Ahmd00z/Ahmd00z** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+👋 Hi, I'm Ahmed Maged  
+🎯 Machine Learning Engineer | Data Scientist | Competitive Programmer  
+Passionate about building efficient, AI-driven solutions to real-world problems.  
+Skilled in developing ML pipelines, deep learning models, embedded systems, and deploying applications.  
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🛠️ Skills  
+Programming Languages: Python, C, C++, Java  
+ML Frameworks: PyTorch, TensorFlow, Scikit-learn  
+Data Tools: Pandas, NumPy, SQL  
+Visualization: Matplotlib, Seaborn  
+Software Development: Algorithms, Data Structures, OOP, Interface  
+Web & Deployment: Flask  
+Tools: Git, GitHub  
