@@ -1,10 +1,6 @@
 <div align="center">
 👋 Hi, I'm Ahmed Maged
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Machine+Learning+Engineer;Data+Scientist;Competitive+Programmer;AI+%26+Deep+Learning+Enthusiast" alt="Typing SVG" />
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Ahmd00z&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
-  <img src="https://img.shields.io/github/followers/Ahmd00z?label=Followers&style=social" alt="GitHub Followers" />
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Machine+Learning+Engineer;Embedded engineer;Competitive+Programmer;AI+%26+Deep+Learning+Enthusiast" alt="Typing SVG" />
 </div>
 🎯 About Me
 Python
