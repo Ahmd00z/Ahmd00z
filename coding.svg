@@ -1,0 +1,254 @@
+<svg width="680" height="400" viewBox="0 0 680 400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- BACKGROUND -->
+  <rect width="680" height="400" fill="#090d18"/>
+
+  <!-- Stars / particles -->
+  <circle cx="38" cy="22" r="1.2" fill="#1e3a60" opacity="0.8"/>
+  <circle cx="72" cy="14" r="0.9" fill="#1a3050" opacity="0.6"/>
+  <circle cx="118" cy="30" r="1.5" fill="#1e3a60" opacity="0.5"/>
+  <circle cx="160" cy="10" r="1" fill="#1a2a40" opacity="0.6"/>
+  <circle cx="540" cy="18" r="1.3" fill="#1e3a60" opacity="0.7"/>
+  <circle cx="590" cy="28" r="1" fill="#1a3050" opacity="0.5"/>
+  <circle cx="620" cy="12" r="1.5" fill="#1e3a60" opacity="0.6"/>
+  <circle cx="645" cy="42" r="0.9" fill="#1a2a40" opacity="0.5"/>
+  <circle cx="28" cy="350" r="1.2" fill="#131c2e" opacity="0.5"/>
+  <circle cx="650" cy="340" r="1.2" fill="#131c2e" opacity="0.5"/>
+
+  <!-- Monitor ambient glow on scene -->
+  <ellipse cx="406" cy="185" rx="210" ry="140" fill="#1050c0" opacity="0.04"/>
+  <ellipse cx="406" cy="300" rx="240" ry="55" fill="#0a40b0" opacity="0.05"/>
+
+  <!-- ═══════════════ DESK ═══════════════ -->
+  <rect x="82" y="268" width="516" height="16" rx="5" fill="#151e30" stroke="#1e2d45" stroke-width="1"/>
+  <rect x="82" y="278" width="516" height="4" rx="0" fill="#1a2840" opacity="0.5"/>
+  <!-- Desk legs -->
+  <rect x="100" y="284" width="18" height="90" rx="3" fill="#111827"/>
+  <rect x="460" y="284" width="18" height="90" rx="3" fill="#111827"/>
+  <!-- Desk shadow -->
+  <ellipse cx="340" cy="375" rx="240" ry="8" fill="#060a12" opacity="0.6"/>
+
+  <!-- ═══════════════ CHAIR ═══════════════ -->
+  <!-- Chair back -->
+  <rect x="205" y="193" width="13" height="60" rx="6" fill="#192438" stroke="#22324a" stroke-width="0.8"/>
+  <!-- Chair front leg -->
+  <rect x="117" y="262" width="8" height="56" rx="3" fill="#10182a"/>
+  <!-- Chair back leg -->
+  <rect x="196" y="262" width="8" height="56" rx="3" fill="#10182a"/>
+  <!-- Chair wheels -->
+  <ellipse cx="121" cy="318" rx="7" ry="3" fill="#0b1220"/>
+  <ellipse cx="200" cy="318" rx="7" ry="3" fill="#0b1220"/>
+  <!-- Chair seat -->
+  <rect x="110" y="250" width="102" height="14" rx="6" fill="#192438" stroke="#22324a" stroke-width="0.8"/>
+
+  <!-- ═══════════════ MONITOR ═══════════════ -->
+  <!-- Stand column -->
+  <rect x="393" y="242" width="26" height="28" rx="5" fill="#151e30"/>
+  <!-- Stand base -->
+  <rect x="371" y="268" width="70" height="7" rx="4" fill="#151e30"/>
+  <!-- Monitor outer frame -->
+  <rect x="284" y="90" width="244" height="158" rx="10" fill="#121a2c" stroke="#1c2b42" stroke-width="1.5"/>
+  <!-- Screen background -->
+  <rect x="292" y="98" width="228" height="142" rx="6" fill="#0a1122"/>
+
+  <!-- Screen content -->
+  <!-- Title bar -->
+  <rect x="292" y="98" width="228" height="17" rx="4" fill="#101828"/>
+  <!-- Traffic lights -->
+  <circle cx="304" cy="106" r="3.5" fill="#e05252" opacity="0.85"/>
+  <circle cx="316" cy="106" r="3.5" fill="#e0a020" opacity="0.85"/>
+  <circle cx="328" cy="106" r="3.5" fill="#48b058" opacity="0.85"/>
+  <!-- Tab -->
+  <rect x="340" y="100" width="65" height="13" rx="3" fill="#192640"/>
+  <text x="372" y="110" text-anchor="middle" fill="#7a8fa8" font-size="7" font-family="monospace">model.py</text>
+
+  <!-- Line number gutter -->
+  <rect x="292" y="115" width="20" height="125" fill="#08101e" opacity="0.6"/>
+
+  <!-- ─── CODE LINES ─── each line y: 120,129,138,147,156,165,174,183,192,201,210,219,228 ─── -->
+  <!-- Line 1: import torch -->
+  <rect x="318" y="121" width="20" height="5" rx="2" fill="#c678dd" opacity="0.9"/>
+  <rect x="342" y="121" width="36" height="5" rx="2" fill="#61afef" opacity="0.85"/>
+
+  <!-- Line 2: import torch.nn as nn -->
+  <rect x="318" y="130" width="20" height="5" rx="2" fill="#c678dd" opacity="0.9"/>
+  <rect x="342" y="130" width="54" height="5" rx="2" fill="#61afef" opacity="0.8"/>
+  <rect x="400" y="130" width="10" height="5" rx="2" fill="#56b6c2" opacity="0.75"/>
+  <rect x="414" y="130" width="16" height="5" rx="2" fill="#e5c07b" opacity="0.8"/>
+
+  <!-- Line 3: blank -->
+
+  <!-- Line 4: class ChestXMTL(nn.Module): -->
+  <rect x="318" y="148" width="22" height="5" rx="2" fill="#c678dd" opacity="0.9"/>
+  <rect x="344" y="148" width="58" height="5" rx="2" fill="#e5c07b" opacity="0.9"/>
+  <rect x="406" y="148" width="6" height="5" rx="2" fill="#abb2bf" opacity="0.5"/>
+  <rect x="416" y="148" width="34" height="5" rx="2" fill="#56b6c2" opacity="0.8"/>
+  <rect x="454" y="148" width="4" height="5" rx="2" fill="#abb2bf" opacity="0.5"/>
+
+  <!-- Line 5: def __init__(self): -->
+  <rect x="330" y="157" width="12" height="5" rx="2" fill="#c678dd" opacity="0.9"/>
+  <rect x="346" y="157" width="52" height="5" rx="2" fill="#98c379" opacity="0.9"/>
+  <rect x="402" y="157" width="24" height="5" rx="2" fill="#abb2bf" opacity="0.55"/>
+
+  <!-- Line 6: super().__init__() -->
+  <rect x="342" y="166" width="32" height="5" rx="2" fill="#61afef" opacity="0.85"/>
+  <rect x="378" y="166" width="44" height="5" rx="2" fill="#abb2bf" opacity="0.5"/>
+
+  <!-- Line 7: self.backbone = models... -->
+  <rect x="342" y="175" width="48" height="5" rx="2" fill="#e06c75" opacity="0.9"/>
+  <rect x="394" y="175" width="8" height="5" rx="2" fill="#abb2bf" opacity="0.5"/>
+  <rect x="406" y="175" width="52" height="5" rx="2" fill="#61afef" opacity="0.8"/>
+
+  <!-- Line 8: self.clf_head = ... -->
+  <rect x="342" y="184" width="52" height="5" rx="2" fill="#e06c75" opacity="0.9"/>
+  <rect x="398" y="184" width="8" height="5" rx="2" fill="#abb2bf" opacity="0.5"/>
+  <rect x="410" y="184" width="46" height="5" rx="2" fill="#61afef" opacity="0.7"/>
+
+  <!-- HIGHLIGHTED / CURSOR LINE -->
+  <rect x="314" y="193" width="192" height="8" rx="2" fill="#1a3a6a" opacity="0.4"/>
+  <rect x="342" y="194" width="52" height="5" rx="2" fill="#e06c75" opacity="0.95"/>
+  <rect x="398" y="194" width="8" height="5" rx="2" fill="#abb2bf" opacity="0.5"/>
+  <rect x="410" y="194" width="46" height="5" rx="2" fill="#61afef" opacity="0.75"/>
+  <!-- Blinking cursor block -->
+  <rect x="460" y="193" width="3" height="7" rx="1" fill="#7fbfff" opacity="0.9"/>
+
+  <!-- Line 9: def forward(self, x): -->
+  <rect x="330" y="206" width="12" height="5" rx="2" fill="#c678dd" opacity="0.85"/>
+  <rect x="346" y="206" width="42" height="5" rx="2" fill="#98c379" opacity="0.85"/>
+  <rect x="392" y="206" width="34" height="5" rx="2" fill="#abb2bf" opacity="0.5"/>
+
+  <!-- Line 10: feat = self.backbone(x) -->
+  <rect x="342" y="215" width="22" height="5" rx="2" fill="#abb2bf" opacity="0.75"/>
+  <rect x="368" y="215" width="58" height="5" rx="2" fill="#e06c75" opacity="0.8"/>
+  <rect x="430" y="215" width="14" height="5" rx="2" fill="#abb2bf" opacity="0.45"/>
+
+  <!-- Line 11: return clf, seg -->
+  <rect x="342" y="224" width="24" height="5" rx="2" fill="#c678dd" opacity="0.8"/>
+  <rect x="370" y="224" width="56" height="5" rx="2" fill="#abb2bf" opacity="0.5"/>
+
+  <!-- Line number labels -->
+  <text x="302" y="124" text-anchor="middle" fill="#2e4060" font-size="6" font-family="monospace">1</text>
+  <text x="302" y="133" text-anchor="middle" fill="#2e4060" font-size="6" font-family="monospace">2</text>
+  <text x="302" y="151" text-anchor="middle" fill="#2e4060" font-size="6" font-family="monospace">4</text>
+  <text x="302" y="160" text-anchor="middle" fill="#2e4060" font-size="6" font-family="monospace">5</text>
+  <text x="302" y="169" text-anchor="middle" fill="#2e4060" font-size="6" font-family="monospace">6</text>
+  <text x="302" y="178" text-anchor="middle" fill="#2e4060" font-size="6" font-family="monospace">7</text>
+  <text x="302" y="187" text-anchor="middle" fill="#2e4060" font-size="6" font-family="monospace">8</text>
+  <text x="302" y="197" text-anchor="middle" fill="#4a80c0" font-size="6" font-family="monospace">9</text>
+  <text x="302" y="209" text-anchor="middle" fill="#2e4060" font-size="6" font-family="monospace">11</text>
+  <text x="302" y="218" text-anchor="middle" fill="#2e4060" font-size="6" font-family="monospace">12</text>
+  <text x="302" y="227" text-anchor="middle" fill="#2e4060" font-size="6" font-family="monospace">13</text>
+
+  <!-- Screen edge glow -->
+  <rect x="292" y="98" width="228" height="142" rx="6" fill="none" stroke="#1a5ab8" stroke-width="1" opacity="0.3"/>
+
+  <!-- ═══════════════ KEYBOARD ═══════════════ -->
+  <rect x="246" y="264" width="148" height="11" rx="4" fill="#141e30" stroke="#1d2c42" stroke-width="0.8"/>
+  <rect x="250" y="266" width="140" height="4" rx="2" fill="#1a2840" opacity="0.6"/>
+  <rect x="252" y="271" width="138" height="3" rx="1" fill="#1a2840" opacity="0.4"/>
+
+  <!-- MOUSE -->
+  <rect x="414" y="264" width="24" height="17" rx="6" fill="#141e30" stroke="#1d2c42" stroke-width="0.8"/>
+  <line x1="426" y1="264" x2="426" y2="274" stroke="#1d2c42" stroke-width="0.8"/>
+  <rect x="418" y="265" width="6" height="4" rx="2" fill="#1e3050" opacity="0.6"/>
+
+  <!-- COFFEE MUG -->
+  <rect x="222" y="250" width="22" height="22" rx="4" fill="#141e30" stroke="#1d2c42" stroke-width="0.8"/>
+  <path d="M244,255 Q255,259 244,266" fill="none" stroke="#1d2c42" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Steam wisps -->
+  <path d="M229,250 Q227,243 231,239 Q235,235 233,229" fill="none" stroke="#4a5a72" stroke-width="1" stroke-linecap="round" opacity="0.55"/>
+  <path d="M236,250 Q234,242 238,238 Q242,234 240,227" fill="none" stroke="#4a5a72" stroke-width="1" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- ═══════════════ PERSON ═══════════════ -->
+
+  <!-- LEFT ARM (back arm, reaching to keyboard) -->
+  <path d="M150,228 Q190,252 252,268" fill="none" stroke="#0e1825" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- RIGHT ARM (front arm) -->
+  <path d="M178,228 Q210,250 270,268" fill="none" stroke="#111f33" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Arm screen glow highlight -->
+  <path d="M175,228 Q208,250 268,268" fill="none" stroke="#1a4a8a" stroke-width="3" stroke-linecap="round" opacity="0.35"/>
+
+  <!-- TORSO -->
+  <path d="M145,250 L143,218 Q160,208 182,212 L188,218 L190,250 Q172,257 145,250 Z" fill="#0e1825"/>
+  <!-- Screen glow on torso (right/front side facing monitor) -->
+  <path d="M182,212 L188,218 L190,250 Q178,254 168,252 L168,220 Z" fill="#1040a0" opacity="0.2"/>
+
+  <!-- NECK -->
+  <rect x="160" y="205" width="16" height="18" rx="4" fill="#111e30"/>
+
+  <!-- HEAD -->
+  <ellipse cx="170" cy="192" rx="24" ry="26" fill="#111e30"/>
+  <!-- Screen glow on face (right side facing monitor gets blue highlight) -->
+  <ellipse cx="176" cy="191" rx="18" ry="22" fill="#1a4ab0" opacity="0.22"/>
+
+  <!-- HAIR -->
+  <path d="M148,186 Q150,162 170,160 Q190,158 192,176 L190,186 Q174,170 155,172 Z" fill="#090d18"/>
+
+  <!-- EYE (minimal detail, screen-facing eye) -->
+  <ellipse cx="183" cy="188" rx="3.5" ry="2.5" fill="#2a4a6a" opacity="0.9"/>
+  <ellipse cx="183" cy="188" rx="1.5" ry="1.5" fill="#3a6090" opacity="0.7"/>
+
+  <!-- GLASSES reflection (optional detail) -->
+  <path d="M177,186 Q181,183 185,185 Q188,186 187,190 Q184,192 180,191 Q177,190 177,186 Z" fill="none" stroke="#1a4a9a" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- ═══════════════ TECH BUBBLES – LEFT ═══════════════ -->
+  <!-- Python -->
+  <rect x="14" y="50" width="70" height="22" rx="11" fill="#131e34" stroke="#1e304e" stroke-width="1"/>
+  <text x="49" y="65" text-anchor="middle" fill="#e5c07b" font-size="10" font-family="monospace" font-weight="600">Python</text>
+
+  <!-- PyTorch -->
+  <rect x="8" y="86" width="75" height="22" rx="11" fill="#131e34" stroke="#1e304e" stroke-width="1"/>
+  <text x="45" y="101" text-anchor="middle" fill="#e06c75" font-size="10" font-family="monospace" font-weight="600">PyTorch</text>
+
+  <!-- C++ -->
+  <rect x="18" y="122" width="60" height="22" rx="11" fill="#131e34" stroke="#1e304e" stroke-width="1"/>
+  <text x="48" y="137" text-anchor="middle" fill="#56b6c2" font-size="10" font-family="monospace" font-weight="600">C / C++</text>
+
+  <!-- Deep Learning -->
+  <rect x="6" y="158" width="95" height="22" rx="11" fill="#131e34" stroke="#1e304e" stroke-width="1"/>
+  <text x="53" y="173" text-anchor="middle" fill="#98c379" font-size="10" font-family="monospace" font-weight="600">Deep Learning</text>
+
+  <!-- OpenCV -->
+  <rect x="14" y="194" width="70" height="22" rx="11" fill="#131e34" stroke="#1e304e" stroke-width="1"/>
+  <text x="49" y="209" text-anchor="middle" fill="#c678dd" font-size="10" font-family="monospace" font-weight="600">OpenCV</text>
+
+  <!-- Bubble connectors left -->
+  <line x1="49" y1="72" x2="45" y2="86" stroke="#1a3050" stroke-width="0.5" opacity="0.45"/>
+  <line x1="46" y1="108" x2="44" y2="122" stroke="#1a3050" stroke-width="0.5" opacity="0.45"/>
+  <line x1="44" y1="144" x2="48" y2="158" stroke="#1a3050" stroke-width="0.5" opacity="0.45"/>
+  <line x1="50" y1="180" x2="48" y2="194" stroke="#1a3050" stroke-width="0.5" opacity="0.45"/>
+
+  <!-- ═══════════════ TECH BUBBLES – RIGHT ═══════════════ -->
+  <!-- NLP -->
+  <rect x="582" y="58" width="50" height="22" rx="11" fill="#131e34" stroke="#1e304e" stroke-width="1"/>
+  <text x="607" y="73" text-anchor="middle" fill="#56b6c2" font-size="10" font-family="monospace" font-weight="600">NLP</text>
+
+  <!-- FastAPI -->
+  <rect x="570" y="94" width="70" height="22" rx="11" fill="#131e34" stroke="#1e304e" stroke-width="1"/>
+  <text x="605" y="109" text-anchor="middle" fill="#98c379" font-size="10" font-family="monospace" font-weight="600">FastAPI</text>
+
+  <!-- Docker -->
+  <rect x="574" y="130" width="64" height="22" rx="11" fill="#131e34" stroke="#1e304e" stroke-width="1"/>
+  <text x="606" y="145" text-anchor="middle" fill="#61afef" font-size="10" font-family="monospace" font-weight="600">Docker</text>
+
+  <!-- Medical AI -->
+  <rect x="562" y="166" width="86" height="22" rx="11" fill="#131e34" stroke="#1e304e" stroke-width="1"/>
+  <text x="605" y="181" text-anchor="middle" fill="#e06c75" font-size="10" font-family="monospace" font-weight="600">Medical AI</text>
+
+  <!-- Linux -->
+  <rect x="578" y="202" width="58" height="22" rx="11" fill="#131e34" stroke="#1e304e" stroke-width="1"/>
+  <text x="607" y="217" text-anchor="middle" fill="#e5c07b" font-size="10" font-family="monospace" font-weight="600">Linux</text>
+
+  <!-- Bubble connectors right -->
+  <line x1="607" y1="80" x2="606" y2="94" stroke="#1a3050" stroke-width="0.5" opacity="0.45"/>
+  <line x1="606" y1="116" x2="606" y2="130" stroke="#1a3050" stroke-width="0.5" opacity="0.45"/>
+  <line x1="606" y1="152" x2="606" y2="166" stroke="#1a3050" stroke-width="0.5" opacity="0.45"/>
+  <line x1="606" y1="188" x2="606" y2="202" stroke="#1a3050" stroke-width="0.5" opacity="0.45"/>
+
+  <!-- ═══════════════ BOTTOM STRIP ═══════════════ -->
+  <rect x="0" y="374" width="680" height="26" fill="#070b14"/>
+
+  <!-- Bottom label -->
+  <text x="340" y="390" text-anchor="middle" fill="#2a4060" font-size="9" font-family="monospace">// Ahmed Maged · Machine Learning Engineer · Egypt</text>
+
+</svg>
