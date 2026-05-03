@@ -1,6 +1,23 @@
 <div align="center">
-👋 Hi, I'm Ahmed Maged
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Machine+Learning+Engineer;Embedded engineer;Competitive+Programmer;AI+%26+Deep+Learning+Enthusiast" alt="Typing SVG" />
+
+# 👋 Hi, I'm Ahmed Maged  
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=Machine+Learning+Engineer;Embedded+Systems+Engineer;Competitive+Programmer;AI+%26+Deep+Learning+Enthusiast" alt="Typing SVG" />
+
+### 💡 Building AI systems • Solving problems • Shipping real projects
+
+<p>
+  <a href="mailto:ahmedmaged2004zsc@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail">
+  </a>
+  <a href="https://www.linkedin.com/in/ahmed-maged-swe/">
+    <img src="https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin">
+  </a>
+  <a href="https://github.com/Ahmd00z">
+    <img src="https://img.shields.io/badge/GitHub-Portfolio-black?style=for-the-badge&logo=github">
+  </a>
+</p>
+
 </div>
 🎯 About Me
 Python
